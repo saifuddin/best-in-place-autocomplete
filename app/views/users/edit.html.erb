@@ -1,0 +1,15 @@
+<h1>Editing User</h1>
+
+<%= render 'form', user: @user %>
+
+<%= link_to 'Show', @user %> |
+<%= link_to 'Back', users_path %>
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+  /* Activating Best In Place */
+  jQuery(".best_in_place").best_in_place();
+});
+
+</script>
